@@ -130,7 +130,7 @@ public class MessageComponent {
             }
             buffer.append(s.build());
         }
-        return buffer.toString();
+        return buffer.toString().replace("\n", "");
     }
 
     /**

@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.ucchyocean</groupId>
   <artifactId>MessagingUtility</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>Messaging Utility for Bukkit Plugin. Tellraw, Title, etc.</description>
 
   <licenses>
@@ -56,7 +56,7 @@
           <show>public</show>
           <nohelp>true</nohelp>
           <links>
-            <link>http://docs.oracle.com/javase/jp/8/docs/api/</link>
+            <link>https://docs.oracle.com/javase/jp/8/docs/api/</link>
             <link>https://hub.spigotmc.org/javadocs/bukkit/</link>
           </links>
         </configuration>
@@ -81,7 +81,7 @@
     <dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>bukkit</artifactId>
-      <version>1.12-R0.1-SNAPSHOT</version>
+      <version>1.14.2-R0.1-SNAPSHOT</version>
       <optional>true</optional>
     </dependency>
   </dependencies>
